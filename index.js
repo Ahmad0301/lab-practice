@@ -3,6 +3,7 @@ const mongoose = require('mongoose')
 const app = express()
 const db = require('./connection')
 const book = require('./models/bookmodel')
+const user  =require('./models/usermodel')
 app.use(express.json())
 app.listen(3000,()=>{
     console.log('server is connected')
